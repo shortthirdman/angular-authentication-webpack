@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "es5",
     "module": "commonjs",
+	"outDir": "build",
     "removeComments": true,
+	"moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": false
@@ -17,7 +19,7 @@
     "src/common/headers.ts",
     "src/common/auth.guard.ts"
   ],
-    "filesGlob": [
+  "filesGlob": [
     "./src/**/*.ts",
     "!./node_modules/**/*.ts"
   ],
